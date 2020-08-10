@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CSS Priority Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://i.picsum.photos" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tailwindcss@1.6.2/dist/tailwind.min.css"
+    />
+    <script src="critical.js"></script>
+  </head>
+  <body>
+    <h1>Page Title</h1>
+    <div class="flex flex-wrap">
+      <div class="w-1/4 p-2">
+        <img
+          src="https://i.picsum.photos/id/952/600/600.jpg?hmac=0rmqp5TNmX76DTaUBf5eqiW-6giNAd6QRcBb3t6Ky0c"
+          alt="image"
+        />
+      </div>
+      <div class="w-1/4 p-2">
+        <img
+          src="https://i.picsum.photos/id/124/600/600.jpg?hmac=-LlW2mNbB-tnkyP3MqslhLkbgyu3Nu9m31KD8AZOBXo"
+          alt="image"
+        />
+      </div>
+      <div class="w-1/4 p-2">
+        <img
+          src="https://i.picsum.photos/id/22/600/600.jpg?hmac=QEZq7KUHwBZCt3kGSEHMwJlZfnzCxCeBgHjYj7iQ-UY"
+          alt="image"
+        />
+      </div>
+      <div class="w-1/4 p-2">
+        <img
+          src="https://i.picsum.photos/id/255/600/600.jpg?hmac=-lfdnAl71_eAIy1OPAupFFPh7EOJPmQRJFg-y7lRB3s"
+          alt="image"
+        />
+      </div>
+    </div>
+    <link rel="stylesheet" type="text/css" media="screen" href="bottom.css" />
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      media="print"
+      onload="this.media='all'"
+      href="bottom.css"
+    /> -->
+    <script async src="main.js"></script>
+  </body>
+</html>
